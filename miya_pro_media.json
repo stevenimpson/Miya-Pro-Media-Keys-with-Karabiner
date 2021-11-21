@@ -1,0 +1,80 @@
+{
+    "title": "Miya Pro Media Keys",
+    "rules": [
+      {
+        "description": "FN + 8 to Play/Pause",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "8",
+              "modifiers": {
+                "mandatory": [
+                  "fn"
+                ],
+                "optional": [
+                  "caps_lock",
+                  "option"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "play_or_pause"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "FN + 7 to Previous",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "7",
+              "modifiers": {
+                "mandatory": [
+                  "fn"
+                ],
+                "optional": [
+                  "caps_lock",
+                  "option"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "rewind"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "FN + 9 to Forward",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "9",
+              "modifiers": {
+                "mandatory": [
+                  "fn"
+                ],
+                "optional": [
+                  "caps_lock",
+                  "option"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "fastforward"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}
