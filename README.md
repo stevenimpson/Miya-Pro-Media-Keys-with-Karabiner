@@ -1,9 +1,10 @@
 # Miya-Pro-Media-Keys-with-Karabiner
 Access media keys with Fn+numbers without switching to function layer on Miya Pro Mac keyboard
 
-Copy this file into 
+Copy miya_pro_media.json into 
     ~/.config/karabiner/assets/complex_modifications
 
+It will then appear in Karabiner Elements Preferences > Complex modifications > Add item
 
 | Key Combo  | Command   |
 |---|---|
